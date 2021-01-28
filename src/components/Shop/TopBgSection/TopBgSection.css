@@ -1,0 +1,73 @@
+.shop_img{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../../../images/shop-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes shop_info{
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes shop_info_2{
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.shop_info{
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 100px 0px;
+}
+.shop_info h1{
+  font-weight: 900;
+  margin-bottom: 21px;
+  animation: shop_info 1s 1 ;
+}
+.shop_info h3{
+  font-weight: 400;
+  margin-bottom: 21px;
+  font-size: 27px;
+}
+.shop_info h5{
+    font-family: 'Pacifico';
+    color: #ffdc3c;
+    font-size: 27px;
+    animation: shop_info_2 1.2s 1 ;
+}
+@media only screen and (max-width: 1024px){
+    .shop_img{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+        url(../../../images/shop-2.jpg);
+    }
+}
+@media only screen and (max-width: 600px){
+    .shop_info h1{
+        font-size: 32px;
+      }
+}
+@media only screen and (max-width: 480px){
+    .shop_info h1{
+        font-size: 24px;
+    }
+    .shop_info h3{
+        font-size: 21px;
+    }
+    .shop_info h5{
+        font-size: 20px;
+    }
+    .shop_info{
+        padding: 60px 0px;
+    }
+}

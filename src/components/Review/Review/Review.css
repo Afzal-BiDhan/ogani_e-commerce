@@ -1,0 +1,13 @@
+.cart_Empty{
+    text-align: center;
+    margin: auto;
+    height: 50vh;
+    position: relative;
+    top: 90px;
+}
+.cart_Empty a{
+    color: blue;
+}
+.cart_Empty h2{
+    color: red;
+}

@@ -1,0 +1,46 @@
+.pd .title{
+    margin-top: 20px;
+}
+.filter_btns{
+    text-align: center;
+}
+.filter_btns button{
+    background: none;
+    margin: 11px 14px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 0px 4px;
+}
+.filter_btns button:focus{
+    color: #7fad39!important;
+    border-bottom: 3px solid #7fad39!important;
+}
+.pd .items h4{
+    margin-top: 12px;
+}
+.add_cart{
+    background-color: #7fad39;
+    padding: 6px 20px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.page_btn{
+    margin-top: 70px;
+    text-align: center;
+}
+.page_btn button{
+    margin-left: 20px;
+    background-color: #ffdc3c;
+    font-weight: 900;
+    padding: 4px 16px;
+    border-radius: 7px;
+    box-shadow: 2px 0px 13px -3px;
+    font-size: 16px;
+}
+.cart_btn{
+    font-size: 1.4rem;
+    margin-top: -6px;
+    margin-right: 4px;
+}

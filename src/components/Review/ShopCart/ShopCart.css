@@ -1,0 +1,32 @@
+.cart h5 b{
+    position: relative;
+    top: 0;
+    left: 45px;
+}
+.cart h5{
+    font-size: 18px;
+}
+.cart h4{
+    text-align: center;
+    border-bottom:  1px solid gray;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.cart span{
+    float: right;
+}
+.cart_total{
+    margin: 20px 0;
+    font-size: 20px!important;
+}
+.cart_total span{
+    color: rgb(7, 7, 197);
+}
+.cart button{
+    position: relative;
+    top: 0;
+    left: 70px;
+    padding: 4px 14px;
+    font-weight: 500;
+    margin: 20px 0;
+}

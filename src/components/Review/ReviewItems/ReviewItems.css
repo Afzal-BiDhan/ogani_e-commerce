@@ -1,0 +1,36 @@
+.review_items img{
+    width: 180px;
+    height: 150px;
+    border: 1px solid #7fad39;
+    border-radius: 14px;
+}
+.review_items{
+    border-right: 2px solid gray;
+}
+.main_review{
+    border-bottom: 2px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 5px;
+}
+.review_info_1,
+.review_info_2{
+    margin-top: 11px;
+}
+.review_info_1 h6 span,
+.review_info_2 h6 span{
+    font-weight: 700;
+}
+.review_info_2 button{
+    background: #7fad39;
+    color: white;
+    font-weight: 400;
+    padding: 3px 14px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+@media screen and (max-width: 767px) {
+    .review_items{
+        text-align: center;
+    }
+}

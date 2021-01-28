@@ -1,0 +1,81 @@
+.header_menu ul li{
+    display: inline-block;
+    margin-right: 26px;
+}
+.header_menu ul li a{
+    font-size: 14px;
+    color: #252525;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: all, 0.3s;
+    padding: 5px 0;
+    display: block;
+}
+.header_menu ul li .active_li{
+    color: #7fad39;
+}
+.header_menu ul li a:hover{
+    color: #7fad39;
+}
+.header_cart ul li {
+    display: inline-block;
+}
+.header_cart a {
+    display: flex;
+}
+.nav_bar{
+    padding-top: 12px;
+}
+.header_menu {
+    text-align: center;
+    padding-top: 10px;
+}
+.header_cart {
+    padding-top: 4px;
+}
+.basket_icon{
+    font-size: 30px!important;
+    margin-right: 14px;
+}
+.header_cart_price strong{
+    font-weight: 800;
+}
+.header_cart_price{
+    padding-top: 2px;
+}
+.header_cart ul li span{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top: -7px;
+    left: 34px;
+}
+@media only screen and (max-width:992px){
+    .header_menu ul li {
+        margin-right: 16px;
+    }
+    .header_menu {
+        margin-left: 24px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .header_menu{
+        display: none;
+    }
+    .custom_logo{
+        width: 150px;
+    }
+    .custom_togol{
+        width: 50px;
+        margin-top: 10px;
+    }
+    .custom_togol2{
+        width: 175px;
+        margin-top: 6px;
+    }
+}
